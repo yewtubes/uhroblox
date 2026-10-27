@@ -1,0 +1,120 @@
+{
+  "url": "https://thumbnails.roblox.com/v1/batch",
+  "method": "POST",
+  "request": [
+    {
+      "type": "GameThumbnail",
+      "targetId": 15101393044,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "0"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 189707,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "1"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 97598239454123,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "2"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 17625359962,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "3"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 78515283254292,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "4"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 10449761463,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "5"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 10576142169,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "6"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 2753915549,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "7"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 79546208627805,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "8"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 73956553001240,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "9"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 3351674303,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "10"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 12177325772,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "11"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 122446657157717,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "12"
+    },
+    {
+      "type": "GameThumbnail",
+      "targetId": 6516141723,
+      "size": "384x216",
+      "format": "webp",
+      "version": "",
+      "requestId": "13"
+    }
+  ],
+  "response_sha256": "6cd4d1b6b3be5272915731786ec1493913048fdfbddf5afc6ac04a2ba70631f5",
+  "captured_at": "2026-10-26T21:51:28Z"
+}

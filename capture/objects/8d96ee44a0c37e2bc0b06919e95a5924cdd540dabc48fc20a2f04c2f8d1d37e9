@@ -1,0 +1,4 @@
+var Roblox = Roblox || {};
+Roblox.LangDynamic = Roblox.LangDynamic || {};
+Roblox.LangDynamic["Feature.Favorites"] = {"Label.AddToFavorites":"Add to Favorites","LabelLoginRequired":"Login Required","ActionLogin":"Login","ActionCancel":"Cancel","ActionRemoveFromFavorites":"Remove from Favorites","ActionAddToFavorites":"Add to Favorites","DescriptionLoginRequired":"You must be logged in to add this to your favorites. Please Login or Register to continue","MessageAssetNotFoundError":"The asset you are trying to favorite cannot be found.","Heading.Favorites":"Favorites","Heading.MyFavorites":"My Favorites","Heading.UserFavorites":"{username}'s Favorites","Label.Favorite":"Favorite","Label.Favorited":"Favorited"};
+window.Roblox && window.Roblox.BundleDetector && window.Roblox.BundleDetector.bundleDetected("DynamicLocalizationResourceScript_Feature.Favorites");

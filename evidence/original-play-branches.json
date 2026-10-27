@@ -1,0 +1,32 @@
+{
+  "source_url": "https://js.rbxcdn.com/3992d9345e8a9e0327427d37965de7bc9dc42821b71a90eb61d138275141b6a2-GameLaunch.js",
+  "source_sha256": "f08224318147eeded50b431b7b81d5310f169b64657493a6422441a512a253a9",
+  "altered": false,
+  "parts": {
+    "guestRestriction": {
+      "file": "original-play-guestRestriction.js",
+      "start_offset": 324140,
+      "end_offset": 325095
+    },
+    "loginRedirect": {
+      "file": "original-play-loginRedirect.js",
+      "start_offset": 96300,
+      "end_offset": 96426
+    },
+    "authenticatedLaunchGuard": {
+      "file": "original-play-authenticatedLaunchGuard.js",
+      "start_offset": 96427,
+      "end_offset": 97751
+    }
+  },
+  "observed_public_behavior": {
+    "page": "https://www.roblox.com/games/15101393044/Dress-To-Impress",
+    "date": "2026-10-26",
+    "authenticated": false,
+    "control": "data-testid=play-button",
+    "result": "Original Sign in or create a free account dialog, with Sign Up and Log In choices",
+    "bundle_url_verified_in_rendered_document": true,
+    "production_game_data_imported": false
+  },
+  "scope": "Original code preservation and branch tests. Local game detail routes and game-session services are not implemented."
+}

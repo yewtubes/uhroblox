@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="152px" height="157px" viewBox="0 0 152 157" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <defs>
+        <filter x="-13.8%" y="-15.3%" width="127.7%" height="130.6%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="97.783801%" x2="50%" y2="1.55905295%" id="linearGradient-2">
+            <stop stop-color="#2DA1F8" offset="0%"></stop>
+            <stop stop-color="#E8F5FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Premium-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Premium-Upsell_Dark(Nonsubscribers)" transform="translate(-613.000000, -2493.000000)" fill="url(#linearGradient-2)">
+            <g id="...-and-much-more!" transform="translate(-1.000000, 2321.000000)">
+                <g id="Group-19" transform="translate(207.000000, 106.000000)">
+                    <g id="menu/trade" transform="translate(389.000000, 15.000000)">
+                        <g id="Group" filter="url(#filter-1)">
+                            <path d="M154.307692,102 C157.449846,102 160,104.548 160,107.6875 C160,109.0525 159.459231,110.252563 158.656615,111.230813 L158.656615,111.230813 L129.580308,147.5 L158.565538,183.462063 L158.502923,183.541687 C159.408,184.548375 160,185.850812 160,187.3125 C160,190.457687 157.449846,193 154.307692,193 C153.180615,193 152.184462,192.5905 151.302154,192.02175 L151.302154,192.02175 L86,147.5 L151.837231,102.619937 C152.594308,102.25025 153.408308,102 154.307692,102 Z M33.6923077,56 C34.8193846,56 35.8098462,56.4151875 36.6978462,56.97825 L36.6978462,56.97825 L102,101.5 L36.1684615,146.380063 C35.4113846,146.74975 34.5916923,147 33.6923077,147 C30.5444615,147 28,144.457688 28,141.3125 C28,139.953188 28.5464615,138.753125 29.3433846,137.769187 L29.3433846,137.769187 L58.4196923,101.5 L29.4344615,65.5379375 L29.5027692,65.4583125 C28.592,64.451625 28,63.1491875 28,61.6875 C28,58.548 30.5444615,56 33.6923077,56 Z" id="Combined-Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

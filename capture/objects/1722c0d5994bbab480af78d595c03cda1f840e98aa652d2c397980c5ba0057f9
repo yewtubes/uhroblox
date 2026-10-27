@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>+10%</title>
+    <defs>
+        <linearGradient x1="50%" y1="18.0553838%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#C0C0C0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="26" cy="26" r="26"></circle>
+        <filter x="-33.7%" y="-24.0%" width="167.3%" height="167.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Premium-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Premium-Upsell-Dark-(Nonsubscribers)-Medium-Mobile-Web" transform="translate(-150.000000, -1357.000000)">
+            <g id="...-and-much-more!" transform="translate(0.000000, 1270.000000)">
+                <g id="Group-19" transform="translate(80.000000, 78.000000)">
+                    <g id="+10%" transform="translate(80.000000, 14.000000)">
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <path d="M22.2,33 L22.2,18.34 L19.42,18.34 L15.18,19.56 L15.92,22.58 L18.4,21.98 L18.4,33 L22.2,33 Z M31.46,33.28 C35.54,33.28 38.16,29.86 38.16,25.72 L38.16,25.68 C38.16,21.54 35.56,18.16 31.5,18.16 C27.4,18.16 24.78,21.58 24.78,25.72 L24.78,25.76 C24.78,29.9 27.36,33.28 31.46,33.28 Z M31.5,29.86 C29.8,29.86 28.68,28.12 28.68,25.72 L28.68,25.68 C28.68,23.28 29.78,21.58 31.46,21.58 C33.12,21.58 34.26,23.34 34.26,25.72 L34.26,25.76 C34.26,28.14 33.18,29.86 31.5,29.86 Z" id="10" fill="#393B3D" fill-rule="nonzero"></path>
+                        <path d="M41.08,22.2 C41.968,22.2 42.576,21.496 42.576,20.648 L42.576,20.632 C42.576,19.792 41.984,19.096 41.096,19.096 C40.192,19.096 39.6,19.792 39.6,20.648 L39.6,20.664 C39.6,21.504 40.2,22.2 41.08,22.2 Z M41.328,25 L43.328,22.336 L45.768,19.176 L44.672,19.176 L42.656,21.864 L40.232,25 L41.328,25 Z M41.096,21.32 C40.808,21.32 40.592,21.024 40.592,20.648 L40.592,20.632 C40.592,20.264 40.776,19.976 41.08,19.976 C41.376,19.976 41.584,20.272 41.584,20.648 L41.584,20.664 C41.584,21.032 41.392,21.32 41.096,21.32 Z M44.912,25.08 C45.8,25.08 46.4,24.376 46.4,23.528 L46.4,23.512 C46.4,22.672 45.816,21.976 44.92,21.976 C44.024,21.976 43.432,22.672 43.432,23.528 L43.432,23.544 C43.432,24.384 44.024,25.08 44.912,25.08 Z M44.92,24.2 C44.632,24.2 44.416,23.904 44.416,23.528 L44.416,23.512 C44.416,23.144 44.608,22.856 44.912,22.856 C45.2,22.856 45.416,23.152 45.416,23.528 L45.416,23.544 C45.416,23.912 45.216,24.2 44.92,24.2 Z" id="%" fill="#393B3D" fill-rule="nonzero"></path>
+                        <path d="M9.25,21 C9.80228475,21 10.25,21.4477153 10.25,22 L10.25,24.75 L13,24.75 C13.5522847,24.75 14,25.1977153 14,25.75 L14,26.25 C14,26.8022847 13.5522847,27.25 13,27.25 L10.25,27.25 L10.25,30 C10.25,30.5522847 9.80228475,31 9.25,31 L8.75,31 C8.19771525,31 7.75,30.5522847 7.75,30 L7.75,27.249 L5,27.25 C4.44771525,27.25 4,26.8022847 4,26.25 L4,25.75 C4,25.1977153 4.44771525,24.75 5,24.75 L7.75,24.749 L7.75,22 C7.75,21.4477153 8.19771525,21 8.75,21 L9.25,21 Z" id="Combined-Shape" fill="#393B3D"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,14 +1,8 @@
+> **Incomplete upload:** 53 captured objects could not be published. This checkout is not the complete runnable milestone. See [UPLOAD_STATUS.md](UPLOAD_STATUS.md) for the exact omissions and reasons.
+
 # Self-hosted 2026 Roblox — original-client preservation
 
 This is an initial preservation milestone using captured browser-delivered Roblox documents, JavaScript, CSS, fonts, images, and the original landing video. There are **zero custom HTML pages, UI replacements, or generated visual assets**. Python supplies an offline resource gateway and independent SQLite services.
-
-## Milestone screenshots
-
-These are actual screenshots of the local preserved client. The public profile shows an independent QA account. Avatar rendering remains unavailable; no replacement avatar was inserted. Signed-in interactive browser QA remains pending. The settings/inventory milestone passes 54 automated checks.
-
-![Original landing with locally cached video](docs/screenshots/landing.jpg)
-
-![Original public profile with independent local data](docs/screenshots/local-profile.jpg)
 
 ## Run locally
 
@@ -106,3 +100,9 @@ python3 audit.py
 Use `python3 manage.py create-user LocalName` to create an independent account with a securely prompted password, then sign in through the original captured login page. Do not use a real Roblox password. This command does not claim that signup or all authenticated page services are complete.
 
 `capture.py` is an explicit capture-time tool; it is never invoked by the serving process. It uses no Roblox login cookies and follows only allowed public Roblox/CDN references. No task here obtains private Roblox source code, production backend access, or game-server infrastructure. Capturing material does not grant permission to modify or redistribute it; no such rights are asserted by this project.
+
+## Milestone screenshots
+
+![Original local landing](docs/screenshots/landing.jpg)
+
+![Original public profile with local QA data](docs/screenshots/local-profile.jpg)

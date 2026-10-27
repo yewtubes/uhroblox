@@ -1,0 +1,79 @@
+{
+  "interface_recreated": false,
+  "services_are_independent": true,
+  "static_constants": {
+    "inventory_categories": {
+      "url": "https://js.rbxcdn.com/bed386583413490cc149eaeefa21ed1d2d1aeb38ee93b136660904409db2ea1c-Inventory.js",
+      "sha256": "2b1f5914d50fa1df4bf2e3069e62999ccc19f8bc371b685052121d5e9ee91b95"
+    },
+    "account_themes": {
+      "url": "https://js.rbxcdn.com/1bf2d7576c1b68856bdff50791479ab3f52d2299ca35d1a12316ad3a7ff782d0-UserSettings.js",
+      "sha256": "b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508"
+    }
+  },
+  "contracts": [
+    {
+      "bundle": "UserSettings",
+      "url": "https://js.rbxcdn.com/1bf2d7576c1b68856bdff50791479ab3f52d2299ca35d1a12316ad3a7ff782d0-UserSettings.js",
+      "sha256": "b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508",
+      "start_offset": 1385117,
+      "excerpt": "getAccountInfo:e.query({query:function(){return{url:\"/my/settings/json\"}},providesTags:[fY.AccountInfo]})}}}).useGetAccountInfoQuery;function EG(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=Array(t);n<t;n++)r[n]=e[n];return r}function EH(e){if(Array.isArray(e))return e}function EQ(){throw TypeError(\"Invalid attempt to destructure non-iterable instance.\\\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\")}function EY(e,t){if(e){if(\"string\"==typeof e)ret"
+    },
+    {
+      "bundle": "UserSettings",
+      "url": "https://js.rbxcdn.com/1bf2d7576c1b68856bdff50791479ab3f52d2299ca35d1a12316ad3a7ff782d0-UserSettings.js",
+      "sha256": "b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508",
+      "start_offset": 1379590,
+      "excerpt": "ER=function(e){return\"\".concat(F.EnvironmentUrls.usersApi,\"/v1/users/\").concat(e,\"/display-names\")},ED=function(e,t){var n=encodeURIComponent(t);return\"\".concat(F.EnvironmentUrls.usersApi,\"/v1/users/\").concat(e,\"/display-names/validate?displayName=\").concat(n)},EN=f6.injectEndpoints({endpoints:function(e){return{updateDisplayName:e.mutation({query:function(e){var t={showAgedUpDisplayName:e.showAgedUpDisplayName};return{url:ER(e.userId),method:f3.PATCH,postBody:e,meta:t}},transformResponse:function(e){return new Promise(function(t){setTimeout(t,2e3,e)})},transformErrorResponse:function(e,t){var n=fX.httpService.parseErrorCode(e);return(t.showAgedUpDisplayName?bi[n]:br[n])||d$},invalidatesTags:[fY.AccountInfo]}),validateDisplayName:e.query({query:function(e){var t={showAgedUpDisplayName:e.showAgedUpDisplayName};return{url:ED(e.userId,e.newDisplayName),meta:t}},transformErrorResponse:function(e,t){var n=fX.httpService.parseErrorCode(e);return(t.showAgedUpDisplayName?bi[n]:br[n])||d$}}),getGender:e.query({query:function(){return{url:pU}},providesTags:[fY.Gender]}),setGender:e.mutation({q"
+    },
+    {
+      "bundle": "UserSettings",
+      "url": "https://js.rbxcdn.com/1bf2d7576c1b68856bdff50791479ab3f52d2299ca35d1a12316ad3a7ff782d0-UserSettings.js",
+      "sha256": "b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508",
+      "start_offset": 1148753,
+      "excerpt": "getUserSettings:e.query({query:function(e){var t=yr;return e&&(t=fX.urlService.getUrlWithQueries(yr,{requestedUserSettings:e})),{url:t,withCredentials:!0}},transformErrorResponse:bh,providesTags:[fY.UserSettings]}),updateUserSettingValue:e.mutation({queryFn:function(e,t,n,r){return bl(function(){var n,i,a,o,l,s;return bp(this,function(u){switch(u.label){case 0:if(e.childUserId)return a=bs({},e.setting,e.value),[2,r({url:yS,postBody:{childUserId:e.childUserId,consentType:yP.UpdateUserSetting,details:a},headers:bu({},e.auditHeader&&{\"rbx-audit-data\":e.auditHeader})})];o=t.dispatch,l=function(){return r({url:yr,postBody:bs({},e.setting,e.value),"
+    },
+    {
+      "bundle": "UserSettings",
+      "url": "https://js.rbxcdn.com/1bf2d7576c1b68856bdff50791479ab3f52d2299ca35d1a12316ad3a7ff782d0-UserSettings.js",
+      "sha256": "b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508",
+      "start_offset": 1150094,
+      "excerpt": "getUserSettingsAndOptions:e.query({query:function(e){var t=yo;return e&&(t=fX.urlService.getUrlWithQueries(yo,{requestedUserSettings:e})),{url:t,withCredentials:!0}},onQueryStarted:function(e,t){var n=t.dispatch,r=t.queryFulfilled;return bl(function(){var e;return bp(this,function(t){switch(t.label){case 0:return t.trys.push([0,2,,3]),[4,r];case 1:return e=t.sent().data,n(vT({userId:eH.authenticatedUser.id,settingsAndOptionsBody:e})),[3,3];case 2:return t.sent(),[3,3];case 3:return[2]}})})()},transformResponse:function(e){var t=bu({},e);return Object.entries(e).forEach(function(e){var n,r=bc(e,2),i=r[0],a=r[1];((null==a?void 0:a.options)===void 0||(null==a||null==(n=a.options)?void 0:n.length)===0)&&delete t[i]}),t},transformErrorResponse:bh,providesTags:[fY.UserSettingsAndOptions]}),getUserSettingsAndOptionsV2:e.query({query:function(e){var t=yl;return e&&(t=fX.urlService.getUrlWithQueries(yl,{requestedUserSettings:e})),{url:t,withCredentials:!0}},onQueryStarted:function(e,t){var n=t.dispatch,r=t.queryFulfilled;return bl(function(){var e;return bp(this,function(t){switch(t.label){case 0:return t.trys.push([0,2,,3]),[4,r];case 1:return e=t.sent().data,n(vj({userId:eH.authenticatedU"
+    },
+    {
+      "bundle": "UserSettings",
+      "url": "https://js.rbxcdn.com/1bf2d7576c1b68856bdff50791479ab3f52d2299ca35d1a12316ad3a7ff782d0-UserSettings.js",
+      "sha256": "b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508",
+      "start_offset": 1107686,
+      "excerpt": "vx=function(e){var t={};return e.forEach(function(e){e.option.optionValue&&e.requirement&&(t[vi(e.option.optionValue)]=e.requirement)}),t},vO=function(e){var t={};return e.forEach(function(e){e.option.optionValue&&e.requiredActions&&(t[vi(e.option.optionValue)]=e.requiredActions)}),t},vP=function(e){return Object.entries(e).reduce(function(e,t){var n=vg(t,2),r=n[0],i=n[1],a=null==i?void 0:i.options;return a?vb(vm({},e),vv({},r,vx(a))):e},{})},vE="
+    },
+    {
+      "bundle": "UserSettings",
+      "url": "https://js.rbxcdn.com/1bf2d7576c1b68856bdff50791479ab3f52d2299ca35d1a12316ad3a7ff782d0-UserSettings.js",
+      "sha256": "b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508",
+      "start_offset": 1085820,
+      "excerpt": "h5=function(e,t){return e.filter(function(e){return t.some(function(t){return t.option.optionValue===e.value})})},h8=function(e,t,n,r,i){return t.filter(function(e){return n.some(function(t){return t.option.optionValue=="
+    },
+    {
+      "bundle": "Inventory",
+      "url": "https://js.rbxcdn.com/bed386583413490cc149eaeefa21ed1d2d1aeb38ee93b136660904409db2ea1c-Inventory.js",
+      "sha256": "2b1f5914d50fa1df4bf2e3069e62999ccc19f8bc371b685052121d5e9ee91b95",
+      "start_offset": 49409,
+      "excerpt": "getInventoryItemsV2:function(r){return t(function(a,t){var e={url:i(\"formatString\")(o.urls.getUserInventoryV2,{userId:r.userId,assetTypeId:r.assetTypeId})};l.httpGet(e,{limit:r.count,cursor:r.cursor,sortOrder:\"Desc\"}).then(function(e){var t=e.data;p().forEach(t,c.formatInventoryV2Asset),e.nextPageCursor?a({nextPageCursor:e.nextPageCursor,items:t}):a({nextPageCursor:e.Data&&e.Data.nextPageCursor,items:t})}).catch(function(e){t(e.Data||e.error||\"\")})})},getBadges:function(r){return t(function(a,t){var e={url:i(\"formatString\")(o.urls.getBadges,{userId:r.userId})};l.httpGet(e,{limit:r.count,cursor:r.cursor,sortOrder:\"Desc\"}).then(function(e){var "
+    },
+    {
+      "bundle": "Inventory",
+      "url": "https://js.rbxcdn.com/bed386583413490cc149eaeefa21ed1d2d1aeb38ee93b136660904409db2ea1c-Inventory.js",
+      "sha256": "2b1f5914d50fa1df4bf2e3069e62999ccc19f8bc371b685052121d5e9ee91b95",
+      "start_offset": 52175,
+      "excerpt": "getCategories:function(e){e={url:i(\"formatString\")(o.urls.getCategories,{userId:e})};return l.httpGet(e,{})}}}r.$inject=[\"$q\",\"$filter\",\"inventoryConstants\",\"assetsConstants\",\"assetsService\",\"httpServ"
+    },
+    {
+      "bundle": "Inventory",
+      "url": "https://js.rbxcdn.com/bed386583413490cc149eaeefa21ed1d2d1aeb38ee93b136660904409db2ea1c-Inventory.js",
+      "sha256": "2b1f5914d50fa1df4bf2e3069e62999ccc19f8bc371b685052121d5e9ee91b95",
+      "start_offset": 12534,
+      "excerpt": "inventoryCategories:[{name:\"Classic Heads\",displayName:\"Classic Heads\",categoryType:\"Head\",items:[{name:\"Classic Heads\",displayName:\"Classic Heads\",id:17,type:\"AssetType\",categoryType:\"Head\"}]},{name:\"Faces\",displayName:\"Faces\",categoryType:\"Face\",items:[{name:\"Faces\",displayName:\"Faces\",id:18,type:\"AssetType\",categoryType:\"Face\"}]},{name:\"Decals\","
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://js.rbxcdn.com/15d017a16565756ad25af08bc0a574244c4f6d5035a40b3ede8b5e47f9bd7415-CoreUtilities.js",
+  "source_sha256": "b46ad7c8c31ef99302f8162af5ab420f52a753f430a849cd87b17cc7c388b05f",
+  "start_offset": 233490,
+  "end_offset": 234028,
+  "functions": {
+    "nf": "read user-data dataset",
+    "nd": "isAuthenticated",
+    "np": "authenticatedUser"
+  },
+  "altered": false
+}

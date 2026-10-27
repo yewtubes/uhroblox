@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>p block Big</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B8C5CF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="29.5078125%"></stop>
+            <stop stop-color="#A0ABB6" offset="76.4628906%"></stop>
+            <stop stop-color="#D8E0E9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M191.090909,0 C197.115834,-1.10676068e-15 202,4.88416637 202,10.9090909 L202,109.090909 C202,115.018657 197.272117,119.842149 191.381532,119.996204 L191.090909,120 L139.272727,120 L139.272727,109.090909 L191.090909,109.090909 L191.090909,10.9090909 L92.9090909,10.9090909 L92.9090909,120 C86.8841664,120 82,115.115834 82,109.090909 L82,10.9090909 C82,4.98134257 86.7278832,0.157850517 92.6184683,0.00379607741 L92.9090909,0 L191.090909,0 Z M182.909091,19.0909091 L182.909091,100.909091 L139.272727,100.909091 L139.272727,90 L172,90 L172,30 L112,30 L112,120 L101.090909,120 L101.090909,19.0909091 L182.909091,19.0909091 Z M139.272727,81.8181818 L139.272727,70.9090909 L152.909091,70.9090909 L152.909091,49.0909091 L131.090909,49.0909091 L131.090909,120 L120.181818,120 L120.181818,38.1818182 L163.818182,38.1818182 L163.818182,81.8181818 L139.272727,81.8181818 Z" id="path-2"></path>
+        <filter x="-2.9%" y="-2.1%" width="105.8%" height="105.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-2.5%" y="-1.7%" width="105.0%" height="105.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="1" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Premium-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Premium-Upsell_Dark(Nonsubscribers)" transform="translate(-450.000000, -200.000000)">
+            <g id="Roblox-Premium-Header" transform="translate(0.000000, 30.000000)">
+                <g id="Premium-Banner" transform="translate(370.000000, 171.000000)">
+                    <g id="p-block-Big">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

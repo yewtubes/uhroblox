@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="130px" height="138px" viewBox="0 0 130 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Robux More</title>
+    <defs>
+        <linearGradient x1="50%" y1="3.64710172%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EEDFA2" offset="0%"></stop>
+            <stop stop-color="#A9935A" offset="58.853881%"></stop>
+            <stop stop-color="#FEE3A5" offset="100%"></stop>
+        </linearGradient>
+        <path d="M124.831333,43.08165 C132.152111,47.25765 136.666667,54.97965 136.666667,63.33165 L136.666667,98.68365 C136.666667,107.04015 132.152111,114.75765 124.831333,118.93365 L93.8307778,136.61415 C86.51,140.79015 77.4854444,140.79015 70.1646667,136.61415 L39.1641111,118.93365 C31.8433333,114.75765 27.3333333,107.04015 27.3333333,98.68365 L27.3333333,63.33165 C27.3333333,54.97965 31.8433333,47.25765 39.1641111,43.08165 L70.1646667,25.40565 C77.4854444,21.22965 86.51,21.22965 93.8307778,25.40565 L124.831333,43.08165 Z M74.3147778,33.42915 L44.1251111,50.64615 C39.3691111,53.35965 36.4444444,58.36815 36.4444444,63.79515 L36.4444444,98.22465 C36.4444444,103.64715 39.3691111,108.66015 44.1251111,111.37365 L74.3147778,128.58615 C79.0707778,131.29965 84.9246667,131.29965 89.6806667,128.58615 L119.870333,111.37365 C124.626333,108.66015 127.555556,103.64715 127.555556,98.22465 L127.555556,63.79515 C127.555556,58.36815 124.626333,53.35965 119.870333,50.64615 L89.6806667,33.42915 C84.9246667,30.71565 79.0707778,30.71565 74.3147778,33.42915 L74.3147778,33.42915 Z M88.3094444,43.05015 L112.130444,56.63115 C116.034556,58.85865 118.444444,62.97615 118.444444,67.43565 L118.444444,94.60215 C118.444444,99.05715 116.034556,103.17465 112.130444,105.40215 L88.3094444,118.98765 C84.4053333,121.21515 79.5901111,121.21515 75.686,118.98765 L51.865,105.40215 C47.9608889,103.17465 45.5555556,99.05715 45.5555556,94.60215 L45.5555556,67.43565 C45.5555556,62.97615 47.9608889,58.85865 51.865,56.63115 L75.686,43.05015 C79.5901111,40.82265 84.4053333,40.82265 88.3094444,43.05015 L88.3094444,43.05015 Z M68.3333333,94.51665 L95.6666667,94.51665 L95.6666667,67.51665 L68.3333333,67.51665 L68.3333333,94.51665 Z" id="path-2"></path>
+        <filter x="-0.5%" y="-0.4%" width="100.9%" height="101.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-0.5%" y="-0.4%" width="100.9%" height="101.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.996078431   0 0 0 0 0.980392157   0 0 0 0 0.788235294  0 0 0 0.551628059 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Premium-Landing-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-17.000000, -17.000000)">
+            <g id="common/goldrobux">
+                <g id="gold-coin">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

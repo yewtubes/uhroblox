@@ -1,0 +1,6 @@
+data
+capture/authenticated-staging
+__pycache__
+tests/__pycache__
+*.zip
+*-inspect.*

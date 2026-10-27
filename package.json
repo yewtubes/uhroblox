@@ -1,0 +1,9 @@
+{
+  "name": "roblox-original-client-preservation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 server.py --host 0.0.0.0",
+    "test": "python3 -m unittest discover -s tests -v"
+  }
+}
