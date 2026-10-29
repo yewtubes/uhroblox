@@ -1,57 +1,12 @@
 # Upload status
 
-The original-client milestone is only partially published. 53 capture objects are omitted: automatic approval review blocked possible credentials, production account data, signed URLs or unverified binary payloads; other large-file reads were truncated. Missing capture objects mean this checkout is not a complete runnable milestone. No blocked payload was retried through another route.
+The original 53 omissions have been resolved for the active client:
 
-- `capture/objects/04fead409d8a3f761f6adf29fd6fabe5a1b6e7c65e5b875aa7bec47478b4b7be`: large-file read failed
-- `capture/objects/0b2e1cc4984a28fc21313b865f22d469d1bb0f412f3f7eab9f5b20f502d54019`: automatic approval review blocked publication
-- `capture/objects/08d7b260b1988b3db2ceaed95386ca9436e4a449cfd686842bec81715f0ab826`: large-file read failed
-- `capture/objects/13a4f0e4ee7c9913afac23c8d5605d65ecae9ebdda22730b342f62e9c0bfe241`: large-file read failed
-- `capture/objects/135f31eec51028855f03845d1f753f5256dea2e43c5cd7d794ca975c6994879c`: large-file read failed
-- `capture/objects/15e6be568b21bc63c9e11eaf10e9a4e3a00232b461c57bcbc60e86d566b81076`: large-file read failed
-- `capture/objects/16b59bbf0429225572568a698cb371b2661e3beb3b4c27c0ebb54f6ddc4b82de`: large-file read failed
-- `capture/objects/10098646e25abd596c86b3906796d6c91be338ab5c1a9c6d3186b260cc4460b9`: large-file read failed
-- `capture/objects/16f59039ddb0ca125bbb4837d484dbb22c46d8c2c4c3c80301df84c6a597c7da`: large-file read failed
-- `capture/objects/1b848e44b00c2869204f5944597ef436bf755a9062f48da51e5ae529a2f2b888`: large-file read failed
-- `capture/objects/1f16ef6c1a555de9a82b24dc1c8f2a7db8017aa0c4a28b058cf3dcb14e1749f4`: large-file read failed
-- `capture/objects/1f6601cdb4e31ae8d0d32f1ee87842aa977ee6f5d8c237c8bd83c099b807c1b5`: large-file read failed
-- `capture/objects/21c50ebff383ed59dce4826995a63be608b776ded21cb778daa71e5cf316b1ce`: large-file read failed
-- `capture/objects/28a36bc8000a8dd9c58ca5eb17ed5937d7bbc5b5b8efbd0a426dc26d5e0d9d69`: large-file read failed
-- `capture/objects/32498f77c72f84f375542ac62e52fe53b609a87f0f92323956358147e59ebf04`: large-file read failed
-- `capture/objects/2d02a3c8c025a98d59da69d9c8bdd396dfa075c5d98e7b1f42c7048e8081facb`: large-file read failed
-- `capture/objects/357d69a4f520029462a59bf06a5540e9596adf98040257483f7239eb69eaa773`: large-file read failed
-- `capture/objects/39578253ed813a863b6346e89dde318654f6168bbba38997952db52e9469a51e`: large-file read failed
-- `capture/objects/4263beb09806774836ba33af34f70c1fb804733eba021aac00fa2e73baabf573`: large-file read failed
-- `capture/objects/4b3e79fd2ead0d049fff892741259da8a2bba131c6b9cf181954e19ffd99e499`: large-file read failed
-- `capture/objects/56f2baf61b5672b3d46d71f022c8f7802dc22e891732f306e90f68e9480d58a6`: automatic approval review blocked publication
-- `capture/objects/59e3d314ac3d183d1953f593dde232409d9e582ed2c0f841108b54eb6b739878`: large-file read failed
-- `capture/objects/59f8c064e6125a41ecbe812c642a12378c7cc6ecfe82593c4d8d4dff40198df3`: large-file read failed
-- `capture/objects/5f3fb9ce4ee42aabade91ddb51249a75a8569cec9961fc79a79167eada513dd9`: large-file read failed
-- `capture/objects/6a0ce27340ccad8f28c47ea000245e4604dae24a295474c4735a7b75db6e4dfe`: large-file read failed
-- `capture/objects/6e3617ebaaa101028819c41ed590faabf6d9b3d0e60bff9990362fa30c6019a7`: large-file read failed
-- `capture/objects/7b59dc4b89222fdb80dc34d0660ee7417939d4e86fe79316f50c6be81a5a81f9`: large-file read failed
-- `capture/objects/7947b3d4d5075bc69d762cf3d5a3f774f62d70d4b6a7130bd540ffaceed51981`: automatic approval review blocked publication
-- `capture/objects/7de0843b4efa63c6383544314189a704035c6d94bdd1f71a035139c0eb067963`: large-file read failed
-- `capture/objects/83c6c413f35b7705b2258bc8408b26e17e7b1ca28a57f762051463673cc5a70f`: automatic approval review blocked publication
-- `capture/objects/8418d452e7e7ac21089770e745b3f1fe11fdc518fe0f49ab8d0c2eabf00ffbb2`: large-file read failed
-- `capture/objects/875a864019643d1b309c0fc8cfabb91149092df65b0151df4d701c05be8e1c8d`: large-file read failed
-- `capture/objects/8f7b36633256a824bb3929ff2447492f4ea69a9d3f1b491882fcb4bce7777a2f`: large-file read failed
-- `capture/objects/94e62a0e3e13582e7dc4e2e4f3379e4bcfdac0d70c9cc86e095526b4bb405175`: large-file read failed
-- `capture/objects/9680ae6c20d8c958f0be92477e440253959480579f2c48a587b5cc9be6d72933`: large-file read failed
-- `capture/objects/a9d2a847d2fe871a8322ca9ce886fc3db6e3291fd6897408a114ac8f4fb32443`: large-file read failed
-- `capture/objects/ad67b9a8843851ff7ca549d58cb05c22d1e2435bc4282b93cf49319a2094ead5`: large-file read failed
-- `capture/objects/b46ad7c8c31ef99302f8162af5ab420f52a753f430a849cd87b17cc7c388b05f`: large-file read failed
-- `capture/objects/b526a2b9488baff62aaba792d15f8594046cacd8dbf9d255bb2fcc9104d72508`: large-file read failed
-- `capture/objects/b2df1a746e654a58e5ee2bed32b9064e4ae3fad1d4fa6fa9d9c619cfef849051`: automatic approval review blocked publication
-- `capture/objects/b5bf516788280da279fbcb6d1cc8c5f2846c40b1989d9872f5b91d01e986dccf`: automatic approval review blocked publication
-- `capture/objects/b57f05bf82430b5324207a6659a732e0a5174ed3bb64b9977343c89e44b9b949`: automatic approval review blocked publication
-- `capture/objects/c0cf192daec2e68351cf1f680121e14ecc53bc4f7cd0b44ed8fdb8ebb1c9ee5a`: large-file read failed
-- `capture/objects/c09507a27e166ba103880cfb7737fb549cea011ea02539576b29483ba6869166`: automatic approval review blocked publication
-- `capture/objects/ca64ac80692da41ad9acc8522b0c7d7cc3fe93cd44060e241e45334cb48d1dc4`: automatic approval review blocked publication
-- `capture/objects/d5416962dfb336eebe1640379e6234cf9e8da40a376a1ea60c7cc806d2ee0e32`: large-file read failed
-- `capture/objects/d5003c5d38a80fb03341ccde459a8ae150f455ab20d5b8708aa8e5c554f8375a`: large-file read failed
-- `capture/objects/d29daeba1adaaae08abcb82ce49180a12766eec0248bb785fac2fbdf4349550c`: large-file read failed
-- `capture/objects/eeda9fdf9f007adce460b488ea46d2f43dbbcbbfeffdbe52c03a5932a1b8f7ca`: large-file read failed
-- `capture/objects/f56b44e605f288c1969876df07a46a1c3a7627ddea048ca08ae19fd31d32eab7`: large-file read failed
-- `capture/objects/eef635607aea0e6f51e43fc0c95d0271bfc2461cf10ea284aa5741a8a403dafc`: automatic approval review blocked publication
-- `capture/objects/f1c25411ddb23fab7e6d3e9184e974f8a2bbafda6a910d0f6fc32ddf78899449`: automatic approval review blocked publication
-- `capture/objects/f76e11ec7ec2971f0b44b169341ee29b5331224f1afd977423a5da57265f0c7b`: large-file read failed
+- 41 transfer-only failures were uploaded unchanged using bounded reads.
+- The original 26 MB media object is represented by seven checksum-verified chunks; the backend reconstructs its exact bytes.
+- Captured security values, signed delivery queries, and production account fields were removed from publication-safe HTML/JSON derivatives. Original component layouts and auth/Play code are preserved.
+- Four previously opaque font/video objects were verified against their public capture provenance and file signatures.
+
+59 automated checks pass; the capture audit reports no missing/corrupt active objects and no custom HTML pages. The signed-out landing was browser-verified with five loaded images and original 1080p video playback. Signed-in browser QA and unimplemented backend services remain outside this verification.
+
+See evidence/publication-sanitation.json and evidence/verified-public-media.json for provenance.

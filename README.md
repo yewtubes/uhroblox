@@ -1,5 +1,3 @@
-> **Incomplete upload:** 53 captured objects could not be published. This checkout is not the complete runnable milestone. See [UPLOAD_STATUS.md](UPLOAD_STATUS.md) for the exact omissions and reasons.
-
 # Self-hosted 2026 Roblox — original-client preservation
 
 This is an initial preservation milestone using captured browser-delivered Roblox documents, JavaScript, CSS, fonts, images, and the original landing video. There are **zero custom HTML pages, UI replacements, or generated visual assets**. Python supplies an offline resource gateway and independent SQLite services.
@@ -80,7 +78,11 @@ The companion importer validates hashes and quarantines documents without alteri
 
 ## Capture provenance and transformations
 
-`capture/manifest.json` records exact source URLs, redirects, content types, byte counts, timestamps, and SHA-256 hashes. `capture/objects/<sha256>` contains the original downloaded representation. Original files remain unchanged. Static CDN/asset-delivery media is replayed from this store; no substitute thumbnail is fabricated.
+`capture/manifest.json` records source URLs, redirects, content types, byte counts, timestamps, and SHA-256 hashes. Static bundles and media in `capture/objects/<sha256>` retain their original bytes. Publication-safe HTML and JSON derivatives remove captured CSRF values, telemetry DSNs, production account fields, and signed delivery queries; their original hashes and transformations are recorded explicitly. The original component layouts and authentication/Play functions remain preserved. Static CDN/asset-delivery media is replayed from this store; no substitute thumbnail is fabricated.
+
+The publication-repair checks pass 59 tests. `evidence/publication-sanitation.json` records the data-only derivatives, and `evidence/verified-public-media.json` identifies the public font/video files that were previously misclassified as opaque data. Run `python3 tools/sanitize_publication.py` before publishing any new captures.
+
+The original 26 MB hero-media object exceeds the GitHub connection's request-size limit. Its exact bytes are stored in seven smaller objects, indexed by `capture/object-chunks.json`. `capture_store.py` verifies each chunk and the reconstructed original SHA-256 before serving it. This changes storage only; the client receives the original captured media bytes.
 
 The serving layer performs only deployment/data adaptation: resource URL rebasing; transport decoding; Content Security Policy; the local transport script; removing stale integrity values for changed representations; preserving local preview ports; independent bootstrap metadata; clearing production data; and binding the original documents' identity fields to local users. The original video SDK's non-production environment selection is routed to the local captured-media service. It never connects to a Roblox test server.
 
@@ -100,9 +102,3 @@ python3 audit.py
 Use `python3 manage.py create-user LocalName` to create an independent account with a securely prompted password, then sign in through the original captured login page. Do not use a real Roblox password. This command does not claim that signup or all authenticated page services are complete.
 
 `capture.py` is an explicit capture-time tool; it is never invoked by the serving process. It uses no Roblox login cookies and follows only allowed public Roblox/CDN references. No task here obtains private Roblox source code, production backend access, or game-server infrastructure. Capturing material does not grant permission to modify or redistribute it; no such rights are asserted by this project.
-
-## Milestone screenshots
-
-![Original local landing](docs/screenshots/landing.jpg)
-
-![Original public profile with local QA data](docs/screenshots/local-profile.jpg)

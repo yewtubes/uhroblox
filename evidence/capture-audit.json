@@ -1,7 +1,7 @@
 {
   "capture_resource_count": 768,
   "nonempty_resources": 766,
-  "bytes": 150930675,
+  "bytes": 150922212,
   "hash_failures": [],
   "empty_responses": [
     "https://sourcemaps.rbxcdn.com/catalog-dbd01c0368d90837.js.map",
@@ -19,28 +19,36 @@
       "route": "/catalog",
       "source": "https://www.roblox.com/catalog",
       "final_url": "https://www.roblox.com/catalog",
-      "sha256": "b5bf516788280da279fbcb6d1cc8c5f2846c40b1989d9872f5b91d01e986dccf",
+      "sha256": "f526839ee1211689dd18101227025307c3c764a9a43e2fd5cd1f98e573c87a60",
+      "source_sha256": "b5bf516788280da279fbcb6d1cc8c5f2846c40b1989d9872f5b91d01e986dccf",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     },
     {
       "route": "/charts",
       "source": "https://www.roblox.com/charts",
       "final_url": "https://www.roblox.com/charts",
-      "sha256": "f1c25411ddb23fab7e6d3e9184e974f8a2bbafda6a910d0f6fc32ddf78899449",
+      "sha256": "b072c8c67a0fcb22e5e2b29a4bab0b562dd53c113287c9fa52b419c29e6b2ca4",
+      "source_sha256": "f1c25411ddb23fab7e6d3e9184e974f8a2bbafda6a910d0f6fc32ddf78899449",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     },
     {
       "route": "/login",
       "source": "https://www.roblox.com/login",
       "final_url": "https://www.roblox.com/login",
-      "sha256": "4f37ac5b5e96cf5b2c9c536b75d263a2d22daa3a784b01fea296b9e8f0ff6026",
+      "sha256": "91edbbfb25b65f97aa633ad2a832aadb7caf89a5666bb7a174503dda796bb29e",
+      "source_sha256": "4f37ac5b5e96cf5b2c9c536b75d263a2d22daa3a784b01fea296b9e8f0ff6026",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     },
     {
       "route": "/",
       "source": "https://www.roblox.com/",
       "final_url": "https://www.roblox.com/",
-      "sha256": "83c6c413f35b7705b2258bc8408b26e17e7b1ca28a57f762051463673cc5a70f",
+      "sha256": "d2788814c127b7d394a6efccecbb919966f1f35822d5d1b8da5f9fb844db8d03",
+      "source_sha256": "83c6c413f35b7705b2258bc8408b26e17e7b1ca28a57f762051463673cc5a70f",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     },
     {
@@ -48,41 +56,53 @@
       "source": "https://www.roblox.com/develop",
       "final_url": "https://create.roblox.com/dashboard/creations",
       "sha256": "0b708580b157a8c3e75c85939a7ca978932a0db95687d65a7768ae887ee14a73",
+      "source_sha256": "0b708580b157a8c3e75c85939a7ca978932a0db95687d65a7768ae887ee14a73",
+      "publication_transform": null,
       "kind": "redirect"
     },
     {
       "route": "/home",
       "source": "https://www.roblox.com/home",
       "final_url": "https://www.roblox.com/Login",
-      "sha256": "33255b9f6dac389269df86dfbb9fbe7aeabe5f8177064876efeb050488c8db83",
+      "sha256": "abedd17a9ec22ca2761fe17c14e2f20fa7e8afcc9cda4068587db3c8fc954b73",
+      "source_sha256": "33255b9f6dac389269df86dfbb9fbe7aeabe5f8177064876efeb050488c8db83",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "redirect"
     },
     {
       "route": "/CreateAccount",
       "source": "https://www.roblox.com/CreateAccount",
       "final_url": "https://www.roblox.com/CreateAccount",
-      "sha256": "9bbfa46cac5b65c5330f457096bb662398ef77de16fa8b0670a1192cfc4fb534",
+      "sha256": "fe733e75839e021c9d7daac2add70109b23e81b52e7459c0f61b816a6a562862",
+      "source_sha256": "9bbfa46cac5b65c5330f457096bb662398ef77de16fa8b0670a1192cfc4fb534",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     },
     {
       "route": "/login/forgot-password-or-username",
       "source": "https://www.roblox.com/login/forgot-password-or-username",
       "final_url": "https://www.roblox.com/login/forgot-password-or-username",
-      "sha256": "3933f7ea3792d831f9569dde4acbb58552d2bcb99c0b92266e71df13a3203d51",
+      "sha256": "7916243c8e824230b84e07e424066bffcb2ab1973fd2b01a89317b81c1da221a",
+      "source_sha256": "3933f7ea3792d831f9569dde4acbb58552d2bcb99c0b92266e71df13a3203d51",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     },
     {
       "route": "/upgrades/robux",
       "source": "https://www.roblox.com/upgrades/robux",
       "final_url": "https://www.roblox.com/upgrades/robux",
-      "sha256": "56f2baf61b5672b3d46d71f022c8f7802dc22e891732f306e90f68e9480d58a6",
+      "sha256": "0a7b0dcf7cd31d3f2bbc1d90445fed97efa72f033c0b4bef9dfaf3c502608542",
+      "source_sha256": "56f2baf61b5672b3d46d71f022c8f7802dc22e891732f306e90f68e9480d58a6",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     },
     {
       "route": "/users/1/profile",
       "source": "https://www.roblox.com/users/1/profile",
       "final_url": "https://www.roblox.com/users/1/profile",
-      "sha256": "7947b3d4d5075bc69d762cf3d5a3f774f62d70d4b6a7130bd540ffaceed51981",
+      "sha256": "60a7c5263a21ca8717404ec9434c450250563d90865173bc05106bb0a7749bb3",
+      "source_sha256": "7947b3d4d5075bc69d762cf3d5a3f774f62d70d4b6a7130bd540ffaceed51981",
+      "publication_transform": "remove captured security values and production account data; preserve original components",
       "kind": "document"
     }
   ],
@@ -90,52 +110,64 @@
   "authenticated_home_captured": true,
   "authenticated_documents": {
     "/home": {
-      "sha256": "6c4059e6c3d983479370803013344521e866acceb71a60d93cfe10c0bbe4310c",
+      "sha256": "db98625431bb5b54a796971c297fe512fb3b63cafc55bd8042df8a3f5e2e1cbe",
       "source_response_sha256_reported": "3ee646c70eec933c54a3206dd3d98ff8229165f2352af609762e4bfe61f64c00",
       "scrubbed_capture_sha256": "6c4059e6c3d983479370803013344521e866acceb71a60d93cfe10c0bbe4310c",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "6c4059e6c3d983479370803013344521e866acceb71a60d93cfe10c0bbe4310c",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/my/account": {
-      "sha256": "37e1ce4b009b174abca62ddb11ee1ab4eb959e8312308826a7b06661f4bb026f",
+      "sha256": "aa4d20fb3606fbeecedaae9daf54841e54a30eed9b191e1e351267f88d0f9617",
       "source_response_sha256_reported": "bb91514baadf5d88b5fa9862fa2b0d55904760ee2d1b3c0688c2397641e68ebe",
       "scrubbed_capture_sha256": "37e1ce4b009b174abca62ddb11ee1ab4eb959e8312308826a7b06661f4bb026f",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "37e1ce4b009b174abca62ddb11ee1ab4eb959e8312308826a7b06661f4bb026f",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/my/avatar": {
-      "sha256": "70bd966988f2757abf0f06f7e9c2f9c405d9d52fe3e9e92b8a3fa299a7d231eb",
+      "sha256": "51ffc3b35579b2908db1fee7813417103cb1f596516078b630ffa8215b6a47bb",
       "source_response_sha256_reported": "fe8f94047bb81038fb09794aae0bb07d170110d611489bbf114f4c9761b25af7",
       "scrubbed_capture_sha256": "70bd966988f2757abf0f06f7e9c2f9c405d9d52fe3e9e92b8a3fa299a7d231eb",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "70bd966988f2757abf0f06f7e9c2f9c405d9d52fe3e9e92b8a3fa299a7d231eb",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/users/friends": {
-      "sha256": "77070de7b377e83c0c12cfd2e3f545580555e6b33d2af843914a13c30bcb9c75",
+      "sha256": "1eafb6c406217adac08349fc69bdfd90722df799eaee125c07b9546ddec24b61",
       "source_response_sha256_reported": "327a12921e79ec4d02fc517c65705a759d79741e56d280fc65c0d9fe5c2b2fe6",
       "scrubbed_capture_sha256": "77070de7b377e83c0c12cfd2e3f545580555e6b33d2af843914a13c30bcb9c75",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "77070de7b377e83c0c12cfd2e3f545580555e6b33d2af843914a13c30bcb9c75",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/users/__LOCAL_USER_ID__/profile": {
-      "sha256": "c58bab698bb28fe284aaa815644f87e4e77b58e2c817424c5f844d7dbac51aaf",
+      "sha256": "9ef3202b4c80dff5fe27553b26c1a2a63bc5a15bf53f1112cffc434894beb8e2",
       "source_response_sha256_reported": "67c307dae4d309521addc7a7ece3f71fe565f68464a088e907deb3fdce90a0a9",
       "scrubbed_capture_sha256": "d1a6d09e90efe0aec08c960fded0a867087369b01fb1a4861eda4c169ec4ff41",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "c58bab698bb28fe284aaa815644f87e4e77b58e2c817424c5f844d7dbac51aaf",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/users/__LOCAL_USER_ID__/inventory": {
-      "sha256": "7c644525ff6d9bc38a9eb60fe38f526a6fb4c24cfc7d892fe1835d563523efec",
+      "sha256": "73177d223ce17d05c85dfca263f8326d8fbb2dbb5bf65f94b15780d5addbe09f",
       "source_response_sha256_reported": "fcd980a439802370a0e1d09c25dd69e3a12478c49808cad8c1573852b0261f3d",
       "scrubbed_capture_sha256": "e75c7b84c8046eddb9dfc23eab3adc7287fdc66353ffc800ebeb398db9ac5497",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "7c644525ff6d9bc38a9eb60fe38f526a6fb4c24cfc7d892fe1835d563523efec",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     }
   },
   "captured_account_records_imported": false

@@ -2,52 +2,64 @@
   "version": 1,
   "documents": {
     "/home": {
-      "sha256": "6c4059e6c3d983479370803013344521e866acceb71a60d93cfe10c0bbe4310c",
+      "sha256": "db98625431bb5b54a796971c297fe512fb3b63cafc55bd8042df8a3f5e2e1cbe",
       "source_response_sha256_reported": "3ee646c70eec933c54a3206dd3d98ff8229165f2352af609762e4bfe61f64c00",
       "scrubbed_capture_sha256": "6c4059e6c3d983479370803013344521e866acceb71a60d93cfe10c0bbe4310c",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "6c4059e6c3d983479370803013344521e866acceb71a60d93cfe10c0bbe4310c",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/my/account": {
-      "sha256": "37e1ce4b009b174abca62ddb11ee1ab4eb959e8312308826a7b06661f4bb026f",
+      "sha256": "aa4d20fb3606fbeecedaae9daf54841e54a30eed9b191e1e351267f88d0f9617",
       "source_response_sha256_reported": "bb91514baadf5d88b5fa9862fa2b0d55904760ee2d1b3c0688c2397641e68ebe",
       "scrubbed_capture_sha256": "37e1ce4b009b174abca62ddb11ee1ab4eb959e8312308826a7b06661f4bb026f",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "37e1ce4b009b174abca62ddb11ee1ab4eb959e8312308826a7b06661f4bb026f",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/my/avatar": {
-      "sha256": "70bd966988f2757abf0f06f7e9c2f9c405d9d52fe3e9e92b8a3fa299a7d231eb",
+      "sha256": "51ffc3b35579b2908db1fee7813417103cb1f596516078b630ffa8215b6a47bb",
       "source_response_sha256_reported": "fe8f94047bb81038fb09794aae0bb07d170110d611489bbf114f4c9761b25af7",
       "scrubbed_capture_sha256": "70bd966988f2757abf0f06f7e9c2f9c405d9d52fe3e9e92b8a3fa299a7d231eb",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "70bd966988f2757abf0f06f7e9c2f9c405d9d52fe3e9e92b8a3fa299a7d231eb",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/users/friends": {
-      "sha256": "77070de7b377e83c0c12cfd2e3f545580555e6b33d2af843914a13c30bcb9c75",
+      "sha256": "1eafb6c406217adac08349fc69bdfd90722df799eaee125c07b9546ddec24b61",
       "source_response_sha256_reported": "327a12921e79ec4d02fc517c65705a759d79741e56d280fc65c0d9fe5c2b2fe6",
       "scrubbed_capture_sha256": "77070de7b377e83c0c12cfd2e3f545580555e6b33d2af843914a13c30bcb9c75",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "77070de7b377e83c0c12cfd2e3f545580555e6b33d2af843914a13c30bcb9c75",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/users/__LOCAL_USER_ID__/profile": {
-      "sha256": "c58bab698bb28fe284aaa815644f87e4e77b58e2c817424c5f844d7dbac51aaf",
+      "sha256": "9ef3202b4c80dff5fe27553b26c1a2a63bc5a15bf53f1112cffc434894beb8e2",
       "source_response_sha256_reported": "67c307dae4d309521addc7a7ece3f71fe565f68464a088e907deb3fdce90a0a9",
       "scrubbed_capture_sha256": "d1a6d09e90efe0aec08c960fded0a867087369b01fb1a4861eda4c169ec4ff41",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "c58bab698bb28fe284aaa815644f87e4e77b58e2c817424c5f844d7dbac51aaf",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     },
     "/users/__LOCAL_USER_ID__/inventory": {
-      "sha256": "7c644525ff6d9bc38a9eb60fe38f526a6fb4c24cfc7d892fe1835d563523efec",
+      "sha256": "73177d223ce17d05c85dfca263f8326d8fbb2dbb5bf65f94b15780d5addbe09f",
       "source_response_sha256_reported": "fcd980a439802370a0e1d09c25dd69e3a12478c49808cad8c1573852b0261f3d",
       "scrubbed_capture_sha256": "e75c7b84c8046eddb9dfc23eab3adc7287fdc66353ffc800ebeb398db9ac5497",
       "captured_at": "2026-10-26T22:44:05.329Z",
       "content_type": "text/html; charset=utf-8",
-      "data_binding": "independent-local-session"
+      "data_binding": "independent-local-session",
+      "original_sha256": "7c644525ff6d9bc38a9eb60fe38f526a6fb4c24cfc7d892fe1835d563523efec",
+      "publication_transform": "remove captured security values and production account data; preserve original components"
     }
   },
   "source": "reviewed original browser-response capture",

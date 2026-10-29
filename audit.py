@@ -3,6 +3,7 @@ import hashlib
 import json
 import re
 from pathlib import Path
+from capture_store import read_object
 
 ROOT = Path(__file__).resolve().parent
 
@@ -12,7 +13,11 @@ def audit():
     invalid, empty, documents = [], [], []
     for url, entry in manifest['resources'].items():
         path = ROOT/'capture'/'objects'/entry['sha256']
-        if not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest() != entry['sha256']:
+        try:
+            valid=hashlib.sha256(read_object(ROOT,entry['sha256'])).hexdigest()==entry['sha256']
+        except (OSError,ValueError):
+            valid=False
+        if not valid:
             invalid.append(url)
         if entry['size'] == 0:
             empty.append(url)
@@ -21,6 +26,8 @@ def audit():
         from urllib.parse import urlsplit
         final_path = urlsplit(e['final_url']).path
         documents.append({'route': path, 'source': url, 'final_url': e['final_url'], 'sha256': e['sha256'],
+                          'source_sha256':e.get('original_sha256',e['sha256']),
+                          'publication_transform':e.get('publication_transform'),
                           'kind': 'redirect' if path.lower() != final_path.lower() else 'document'})
     evidence = ROOT/'evidence'
     evidence.mkdir(exist_ok=True)

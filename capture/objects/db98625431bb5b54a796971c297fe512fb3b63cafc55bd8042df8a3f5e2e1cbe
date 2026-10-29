@@ -359,7 +359,7 @@
 
 
     
-    <meta name="csrf-token" data-token="__LOCAL_SECURITY_VALUE__" />
+    <meta name="csrf-token" data-token="" />
 
     
     <script src="https://roblox.com/js/hsts.js?v=5" type="text/javascript" id="hsts" async></script>

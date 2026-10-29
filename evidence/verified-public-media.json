@@ -1,0 +1,34 @@
+[
+  {
+    "sha256": "b2df1a746e654a58e5ee2bed32b9064e4ae3fad1d4fa6fa9d9c619cfef849051",
+    "source_url": "https://sc5.rbxcdn.com/c/41799254A6427911B05D22A2871E1EC0/6e71da6487183f6f0afbae5f03e4bd73/504/0001.webm",
+    "content_type": "video/webm",
+    "decoded_magic": "1a45dfa39f4286810142f781",
+    "captured_anonymously": true,
+    "contains_html_or_account_json": false
+  },
+  {
+    "sha256": "b57f05bf82430b5324207a6659a732e0a5174ed3bb64b9977343c89e44b9b949",
+    "source_url": "https://sc5.rbxcdn.com/c/41799254A6427911B05D22A2871E1EC0/6e71da6487183f6f0afbae5f03e4bd73/360/0003.webm",
+    "content_type": "video/webm",
+    "decoded_magic": "1a45dfa39f4286810142f781",
+    "captured_anonymously": true,
+    "contains_html_or_account_json": false
+  },
+  {
+    "sha256": "c09507a27e166ba103880cfb7737fb549cea011ea02539576b29483ba6869166",
+    "source_url": "https://css.rbxcdn.com/7a22b12771b98d4d.woff2",
+    "content_type": "font/woff2",
+    "decoded_magic": "774f463200010000000059d8",
+    "captured_anonymously": true,
+    "contains_html_or_account_json": false
+  },
+  {
+    "sha256": "ca64ac80692da41ad9acc8522b0c7d7cc3fe93cd44060e241e45334cb48d1dc4",
+    "source_url": "https://sc5.rbxcdn.com/c/41799254A6427911B05D22A2871E1EC0/6e71da6487183f6f0afbae5f03e4bd73/360/0008.webm",
+    "content_type": "video/webm",
+    "decoded_magic": "1a45dfa39f4286810142f781",
+    "captured_anonymously": true,
+    "contains_html_or_account_json": false
+  }
+]

@@ -21,6 +21,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlsplit
 
 from storage import Store
+from capture_store import read_object
 from auth_documents import AUTH_PATHS, auth_route, bind_document, bind_user_metadata
 from client_contracts import ClientContracts
 from local_api import dispatch as dispatch_local_api
@@ -254,7 +255,7 @@ class Handler(BaseHTTPRequestHandler):
                 target=self.app.store.user(target_id) if target_id else user
                 if not target:
                     return self.error(404,'Independent user not found')
-                body=(self.app.root/'capture'/'objects'/captured['sha256']).read_bytes()
+                body=read_object(self.app.root,captured['sha256'])
                 if hashlib.sha256(body).hexdigest()!=captured['sha256']:
                     return self.error(500,'Authenticated template integrity check failed')
                 text=bind_document(body.decode(),user,target,session['csrf'])
@@ -454,7 +455,7 @@ class Handler(BaseHTTPRequestHandler):
                     if final.query:
                         location += '?' + final.query
                     return self.send(302, headers={'Location': location})
-                body = (self.app.root/'capture'/'objects'/e['sha256']).read_bytes()
+                body = read_object(self.app.root,e['sha256'])
                 if hashlib.sha256(body).hexdigest() != e['sha256']:
                     return self.error(500, 'Captured resource integrity check failed')
                 # CDN asset delivery may return transport-compressed files with
@@ -487,7 +488,9 @@ class Handler(BaseHTTPRequestHandler):
                             text = text.replace('Roblox&#x27;s Profile', html.escape(u['display_name'], quote=True)+'&#x27;s Profile')
                     body = text.encode()
                 # Video players request byte ranges while seeking/buffering.
-                headers = {'X-Preservation-Source-SHA256': e['sha256']}
+                headers = {'X-Preservation-Source-SHA256': e.get('original_sha256',e['sha256'])}
+                if e.get('publication_transform'):
+                    headers['X-Preservation-Template-SHA256']=e['sha256']
                 if mime.startswith(('image/', 'video/', 'font/')):
                     headers['Accept-Ranges'] = 'bytes'
                     range_header = self.headers.get('Range')
